@@ -43,20 +43,13 @@
     <h1>Minha Página</h1>
   </header>
   
-  <nav>
-    <ul>
-      <li><a href="#">Big</a></li>
-      <li><a href="#">Jao</a></li>
-    </ul>
-  </nav>
-  
   <section>
     <h1>PERGUNTA SUPER SERIA</h1>
-    <p>se te chamar pra um rodizio de traveco, tu vai ??</p>
+    <p>Com quantos anos descobriu que a lua nao é feita de queijo ??</p>
 	
 <form>
     
-   <p>Sim ou Nao ??:</p>
+   <p>So vale numeros</p>
   <input type="text" id="numero" autocomplete="off">
   <button onclick="verificarNumero()">Verificar</button>
   <p id="resultado"></p>
@@ -66,20 +59,12 @@
       var numero = document.getElementById("numero").value;
       var resultadoElement = document.getElementById("resultado");
 
-      if (numero  === "sim") {
-        resultadoElement.textContent = "Amigo";
+      if (numero  => 18) {
+        resultadoElement.textContent = "So foi aprende depois de veio...";
       } 
-       else if (numero  === "Sim") {
-        resultadoElement.textContent = "Amigo";
-      } 
-	 else if (numero  === "s") {
-        resultadoElement.textContent = "Amigo";
-      } 
-	 else if (numero  === "S") {
-        resultadoElement.textContent = "Amigo";
-      } 
+      
       else {
-        resultadoElement.textContent = "Inimigo";
+        resultadoElement.textContent = "Esta no caminho certo";
       }
 	     event.preventDefault();
     }
