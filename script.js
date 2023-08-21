@@ -10,7 +10,7 @@ function verificarNumero() {
         resultadoElement.textContent = "Esta no caminho certo";
       }
 
-else if (numero  >= 100) {
+if (numero  >= 100) {
         resultadoElement.textContent = "Volta pra tumba mumia pilantra";
       } 
 	      
